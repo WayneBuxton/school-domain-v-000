@@ -11,9 +11,11 @@ class School
   end
   def grade(grade)
     @roster[grade]
-    #binding.pry
+
   end
   def sort
-    
+    @roster.each do |key,value|
+binding.pry
+    end
   end
 end
