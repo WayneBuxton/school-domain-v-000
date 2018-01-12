@@ -10,5 +10,6 @@ class School
     @roster[grade] << "#{name}"
   end
   def grade(grade)
+    binding.pry
   end
 end
