@@ -15,7 +15,8 @@ class School
   end
   def sort
     @roster.each do |grade,names|
-binding.pry
+      names.sort!
+#binding.pry
     end
   end
 end
