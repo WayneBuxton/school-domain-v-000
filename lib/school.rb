@@ -14,9 +14,12 @@ class School
 
   end
   def sort
+    #sorted_roster = {}
     @roster.each do |grade,names|
       names.sort!
-#binding.pry
+      #sorted_roster[grade] = names.sort
+      #build hash out
     end
+    #sorted_roster
   end
 end
