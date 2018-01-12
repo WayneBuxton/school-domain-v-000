@@ -13,7 +13,7 @@ class School
     @roster[grade]
     #binding.pry
   end
-  def sort
+  def sort(name)
     @roster.sort do |a,b|
       a <=> b
     end
