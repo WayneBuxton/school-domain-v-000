@@ -10,9 +10,7 @@ class School
     @roster[grade] << "#{name}"
   end
   def grade(grade)
-    grade.collect do |grade|
-      @roster
-    end
+    @roster(grade)
     #binding.pry
   end
 end
