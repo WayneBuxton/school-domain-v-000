@@ -14,6 +14,7 @@ class School
     #binding.pry
   end
   def sort
-    @roster.sort_by!
+    @roster.sort do |a,b|
+      a <=> b
   end
 end
