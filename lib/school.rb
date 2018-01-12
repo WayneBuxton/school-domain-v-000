@@ -7,7 +7,8 @@ class School
   end
   def add_student(name, grade)
     #binding.pry
-    @roster[grade] = []
-    @roster[grade] << "#{name}"   
+    @roster[grade] || @roster[grade] = []
+    @roster[grade] << "#{name}"
+
   end
 end
