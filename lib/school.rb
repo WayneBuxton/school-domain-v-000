@@ -14,6 +14,6 @@ class School
     #binding.pry
   end
   def sort
-    @school.sort
+    @roster.sort
   end
 end
