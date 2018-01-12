@@ -9,7 +9,6 @@ class School
     #binding.pry
     @roster[grade] = []
     @roster[grade] << "#{name}"
-    @roster[grade] = name
 
   end
 end
