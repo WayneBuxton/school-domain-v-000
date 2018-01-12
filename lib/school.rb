@@ -9,6 +9,5 @@ class School
     #binding.pry
     @roster[grade] = [] unless @roster[grade]
     @roster[grade] << "#{name}"
-    
   end
 end
